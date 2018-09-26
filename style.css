@@ -1,0 +1,176 @@
+ @font-face {
+	 font-family: Sci-Fi;
+	 src: url(./Blanka-Regular.otf);
+ }
+
+ @font-face {
+	 font-family: Modern;
+	 src: url(./HalogenbyPixelSurplus-Regular.otf);
+ }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Modern;
+}
+
+body {
+	background-image: url(./background.jpg);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(252, 63, 63);
+}
+
+form {
+  text-align: center;
+  color: rgb(252, 63, 63);
+  font-size: 18px;
+}
+
+form input {
+  font-size: 18px;
+  font-family: Modern;
+  margin-bottom: 5px;
+}
+
+form button {
+  font-family: Sci-Fi;
+  font-size: 20px;
+  height: 100%;
+	padding: 10px;
+  border: 1px solid rgb(252, 63, 63);
+	transition-duration: 0.4s;
+  margin: 0 2px;
+  background: none;
+}
+
+form button:hover {
+  border: 1px solid rgb(252, 63, 63);
+  background-color: rgb(252, 63, 63);
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+h1.title {
+  color: rgb(252, 128, 63);
+  margin-bottom: 0;
+}
+
+h3.title {
+  color: rgba(252, 128, 63, 0.75);
+  margin-top: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.name {
+	color: rgb(63, 252, 63);
+}
+
+nav img {
+	margin: 0.5%;
+	height: 80%;
+	width: height;
+	display: inline-block;
+	float: left;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+	margin-top: 1%;
+  float: left;
+}
+
+nav li a {
+  height: 10px;
+	padding: 10px;
+  border: 1px solid rgb(252, 63, 63);
+	transition-duration: 0.4s;
+  margin: 0 2px;
+}
+
+nav li a:hover {
+  border: 1px solid rgb(252, 63, 63);
+  background-color: rgb(252, 63, 63);
+  color: white;
+}
+
+nav {
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 90%;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(22, 22, 22);
+	font-family: Sci-Fi;
+}
+
+#main {
+	margin-top: 7%;
+}
+
+#home {
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+#home img {
+	border: 10px solid rgb(22, 22, 22);
+}
+
+#home table {
+	margin-left:37.5%;
+  margin-right:37.5%;
+}
+
+#home td {
+	color: rgb(0, 128, 252);
+	width:25%;
+	padding: 5px;
+	margin: 2px;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+#game {
+  margin: 0 15%;
+}
+
+#gol {
+  margin: 0 37.5%;
+}
+
+#help {
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+#help_game {
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+#about {
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+#about a {
+	color: rgb(63, 202, 252);
+	transition-duration: 0.4s;
+}
+
+#about a:hover {
+	color: rgb(252, 202, 63);
+}
